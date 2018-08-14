@@ -1,5 +1,5 @@
 set :application, 'Biddy'     # app name
-set :repo_url, 'git@github.com:SaravananMart/Biddy.git'   # git repo url
+set :repo_url, 'git@github.com:Eswath/biddybackend.git'   # git repo url
 set :deploy_to, '/var/www/biddy'    # app folder in server
 set :keep_releases, 2
 set :format, :pretty
@@ -23,3 +23,5 @@ set :assets_roles, [:app] # Defaults to [:web]
 # Shared directories over different deployments
 set :linked_dirs, %w(pids log)
 set :linked_files, %w(config/database.yml)
+
+
